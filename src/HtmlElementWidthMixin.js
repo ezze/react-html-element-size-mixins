@@ -1,6 +1,6 @@
 import htmlElementSize from 'html-element-size';
 
-const HtmlElementHeightMixin = {
+const HtmlElementWidthMixin = {
     stateElementWidth(stateProperty, element, options) {
         if (element) {
             this.setState({
@@ -15,4 +15,4 @@ const HtmlElementHeightMixin = {
     }
 };
 
-export default HtmlElementHeightMixin;
+export default HtmlElementWidthMixin;
