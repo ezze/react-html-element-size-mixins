@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "ignore": [
+    "src/index.umd.js"
+  ]
+}
