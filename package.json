@@ -1,6 +1,6 @@
 {
   "name": "react-html-element-size-mixins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mixins for React components based on html-element-size package",
   "main": "lib/index.js",
   "jsnext:main": "dist/react-html-element-size-mixins.es.js",
