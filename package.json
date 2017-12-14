@@ -15,11 +15,8 @@
     "dist:umd:prod": "cross-env NODE_ENV=production npm run dist:umd",
     "watch:es": "node --require babel-register rollup.watch.es.js",
     "lint": "eslint ./src",
-    "lint:test": "eslint -c test/.eslintrc.json ./test",
-    "test": "mocha --recursive --require babel-register test",
-    "test:coverage": "istanbul cover _mocha -- --recursive --require babel-register test",
-    "test:coveralls": "npm run test:coverage && cat ./coverage/lcov.info | coveralls",
-    "prepublishOnly": "npm run lint && npm run lint:test && npm test && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
