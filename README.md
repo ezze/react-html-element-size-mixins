@@ -8,7 +8,7 @@ Mixins for React components based on [html-element-size](https://github.com/ezze
 ## Installation
 
 ```
-npm install html-element-size
+npm install react-html-element-size-mixins
 ```
    
 ## Building
