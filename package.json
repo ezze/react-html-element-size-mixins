@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Mixins for React components based on html-element-size package",
   "main": "lib/index.js",
-  "jsnext:main": "dist/react-html-element-size-mixins",
-  "module": "dist/react-html-element-size-mixins",
+  "jsnext:main": "dist/react-html-element-size-mixins.es.js",
+  "module": "dist/react-html-element-size-mixins.es.js",
   "scripts": {
     "build": "rimraf lib dist && npm run transpile && npm run dist",
     "transpile": "babel src -d lib",
